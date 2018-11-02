@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 // use cat_app db, it will create the db if it does not exist
 mongoose.connect("mongodb://localhost/cat_app");
 
-// Create Schema
+// Create Schema - use to anticipate data 
 var catSchema = new mongoose.Schema({
   name: String,
   age: Number,
